@@ -1,0 +1,7 @@
+{
+  "lr": 0.001,
+  "dropout": 0.1,
+  "weight_decay": 0.0,
+  "logq_weight": 0.5,
+  "val_HR@50": 0.7675547192235318
+}
