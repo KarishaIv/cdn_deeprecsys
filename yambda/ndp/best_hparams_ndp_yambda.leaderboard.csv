@@ -1,2 +1,0 @@
-trial,status,error,lr,dropout,weight_decay,tune_s1_epochs,tune_s2_epochs,val_subset_size,val_full_size,val_HR@50
-1,ok,,0.001,0.1,0.0,3,3,7102,7102,0.915235145029569

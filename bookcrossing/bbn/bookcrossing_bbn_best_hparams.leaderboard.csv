@@ -1,2 +1,0 @@
-trial,status,error,lr,dropout,weight_decay,val_HR@50
-1,ok,,0.001,0.1,0.0,0.2773100921065663

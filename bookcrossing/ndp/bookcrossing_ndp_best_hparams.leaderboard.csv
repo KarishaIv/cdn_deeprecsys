@@ -1,2 +1,0 @@
-trial,status,error,lr,dropout,weight_decay,stage1_epochs,stage2_epochs,val_HR@50
-1,ok,,0.001,0.1,0.0,3,3,0.33673368327225905
