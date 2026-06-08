@@ -3,6 +3,6 @@
   "dropout": 0.1,
   "weight_decay": 0.0,
   "gamma": 10.0,
-  "n_experts": 1,
-  "val_HR@50": 13.923841059602648
+  "n_experts": 2,
+  "val_HR@50": 13.642384105960264
 }

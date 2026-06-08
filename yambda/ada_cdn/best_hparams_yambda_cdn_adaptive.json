@@ -2,7 +2,8 @@
   "lr": 0.001,
   "dropout": 0.1,
   "weight_decay": 0.0,
-  "gamma": 3.0,
+  "gamma_0": 1.5,
+  "gamma_1": 0.0,
   "n_experts": 2,
-  "val_HR@50": 1.3658124471979722
+  "val_HR@50": 1.591101098282174
 }
