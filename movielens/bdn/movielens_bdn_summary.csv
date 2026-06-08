@@ -1,0 +1,2 @@
+method,num_seeds,head_fraction,head_share,num_head_items,num_tail_items,test_head_share,test_tail_share,lr,dropout,weight_decay,n_experts,final_epochs,best_val_HR@50,overall_HR@50,overall_NDCG@50,head_HR@50,head_NDCG@50,tail_HR@50,tail_NDCG@50,CatalogCoverage@50,TailCoverage@50,AvgPopularity@50,TailRatio@50,Personalization@50
+BDN,5,0.2,20.0%,741,2965,60.22%,39.78%,0.001,0.1,0.0,2,40,13.22 +/- 0.49,11.39 +/- 0.58,3.31 +/- 0.18,11.74 +/- 0.49,3.59 +/- 0.17,10.87 +/- 0.82,2.90 +/- 0.21,99.97 +/- 0.02,99.97 +/- 0.02,5.2394 +/- 0.1042,63.19 +/- 1.75,97.39 +/- 0.05
