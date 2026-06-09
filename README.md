@@ -1,5 +1,11 @@
 # CDN
 
+Репозиторий содержит эксперименты по задаче long-tail item recommendation. Основная цель: сравнить базовую Two-Tower модель с методами, улучшающими качество рекомендаций для tail-items, включая CDN и AdaCDN.
+
+`AdaCDN` - модификация CDN, в которой вклад регуляризующей ветви подбирается более адаптивно. Гипотеза: такая модификация может сбалансировать качество на head-items и tail-items без заметной потери overall-метрик.
+
+Эксперименты проводятся на датасетах BookCrossing, MovieLens и Yambda. Для каждой модели обучение, подбор гиперпараметров и подсчёт метрик выполняются в `.ipynb`-ноутбуках. Итоговые значения метрик сохраняются в `summary.csv`.
+
 Эксперименты запускаются из .ipynb-ноутбуков в папках соответствующих датасетов.
 
 ```
@@ -45,3 +51,10 @@ pip install -r requirements.txt
 ### License
 
 Код распространяется в учебных целях. Права на датасеты принадлежат их оригинальным правообладателям.
+
+## Ссылки
+
+- Yambda paper: [Yambda-5B - A Large-Scale Multi-modal Dataset for Ranking And Retrieval](https://arxiv.org/abs/2505.22238)
+- Yambda: https://huggingface.co/datasets/yandex/yambda
+- MovieLens: https://grouplens.org/datasets/movielens/1m/
+- BookCrossing: http://www2.informatik.uni-freiburg.de/~cziegler/BX/
